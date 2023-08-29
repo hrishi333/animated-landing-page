@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    box-sizing: border-box;
+}
+.wrapper{
+ 
+    max-width: 968px;
+    margin-left: auto;
+    margin-right: auto;
+}
