@@ -2,12 +2,38 @@
 @tailwind components;
 @tailwind utilities;
 
-*{
-    box-sizing: border-box;
+* {
+  box-sizing: border-box;
 }
-.wrapper{
- 
-    max-width: 968px;
-    margin-left: auto;
-    margin-right: auto;
+
+.wrapper {
+  padding-left: 168px;
+  padding-right: 168px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.grad1 {
+  background: linear-gradient(to right, #c6ffdd, #fbd786, #f7797d);
+}
+
+.grad2 {
+  background: linear-gradient(to right, #3e5151, #decba4);
+}
+
+.grad3 {
+  background: linear-gradient(to right, #ba5370, #f4e2d8);
+}
+
+.gradient-bg {
+  animation: gradientAnimation 10s ease infinite;
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
 }
